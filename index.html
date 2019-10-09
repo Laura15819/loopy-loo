@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title>Dragons</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="/js/lib/dummy.js"
+    
+  ></script>
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+      h1 {
+  text-align: center;
+  color: blue;
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  color: black;
+  text-decoration: bat img;
+}
+
+#bat1 {
+  transform: scaleX(-1);
+}
+
+.alignRight {
+  text-align: right;
+}
+
+.row1 {
+  width: 49%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#p1 {text-align: left;
+color: black;
+}
+
+#p2 {text-align: right;
+color: black:
+}
+.row2 {
+  width:49%;
+  display: inline-block;
+  vertical-align: top;
+}
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">//<![CDATA[
+
+    window.onload=function(){
+      
+var myHeading = document.getElementsByTagName('h1')[0];
+
+myHeading.onclick = function() {
+  console.log("test");
+  myHeading.style.color = 'green';
+};
+
+
+    }
+
+  //]]></script>
+
+</head>
+<body>
+    <h1>
+  Hello World!
+</h1>
+
+<h2><img id="bat1" src="https://cdn.pixabay.com/photo/2014/03/25/15/17/bat-296393_960_720.png" Width="50" Height="50" alt="cartoon bat">
+  Dragons of time
+  <img src="https://cdn.pixabay.com/photo/2014/03/25/15/17/bat-296393_960_720.png" Width="50" Height="50" alt="cartoon bat">
+</h2>
+<div class="row1" style=" word-wrap: break-word;">
+  <p id="p1">
+    Styles of dragons over time has changed vastly. This ancient clay chinese sculpture is a representation of old style dragons.
+  </p>
+</div>
+<div class="alignRight row1">
+  <img id="china" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRBoB1y2GGbohtsVOOp7TmVTsV1jIvJ3yHpONj-XSvNP67xkqS2" width="200" height="200" alt="chinese clay">
+</div>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSwqRWLOgOWRRXZZ8Y8dteoOsQLVGhRYrn0uUDraUQWcRRhmH4n" width="200" Height="200" alt="middle age">
+<div class="row2">
+<p id="p2">
+This is a representation of a middle age style dragon.
+</p>
+</div>
+<img src="https://critter.science/wp-content/uploads/2019/07/olm1.jpeg" alt="olm pic">
+
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: ""
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+</body>
+</html>
